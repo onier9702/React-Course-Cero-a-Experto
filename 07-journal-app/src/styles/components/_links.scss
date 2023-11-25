@@ -1,0 +1,18 @@
+
+.auth__linkRegister {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.link {
+    color: $dark-grey;
+    text-decoration: none;
+
+    transition: color .3s ease;
+
+    &:hover{
+        color: darken($color: $dark-grey, $amount: 20);
+        text-decoration: underline;
+    }
+} 
+

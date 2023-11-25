@@ -1,0 +1,94 @@
+
+.btn {
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 7px 10px 7px 10px;
+    margin-bottom: 15px;
+    
+    &:focus{
+        outline: none;
+    }
+
+    &:hover{
+          color: darken($color: white, $amount: 20);
+    }
+
+}
+
+.btn-primary {
+    background-color: blue;
+    border-radius: 2px;
+    width: 100%;
+
+    &:disabled {
+        background-color: lighten($color: $primary, $amount: 20);
+    }
+    &:hover{
+        background-color: darken($color: $primary, $amount: 20);
+    }
+}
+.btn-delete {
+      background-color: red;
+      width: 100%;
+
+      &:hover{
+            background-color: darken($color: red, $amount: 10) ;
+      }
+}
+
+.google-btn {
+    margin-top: 7px;
+    width: 100%;
+    height: 42px;
+    background-color: $google-blue;
+    border-radius: 2px;
+    box-shadow: 0 3px 4px 0 rgba(0,0,0,.25);
+    cursor: pointer;
+  .google-icon-wrapper {
+        position: absolute;
+        margin-top: 1px;
+        margin-left: 1px;
+        width: 40px;
+        height: 40px;
+        border-radius: 2px;
+        background-color: $white;
+  }
+  .google-icon {
+
+        position: absolute;
+        margin-top: 11px;
+        margin-left: 11px;
+        width: 18px;
+        height: 18px;
+  }
+  .parr{ 
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+  }
+  .parr .btn-text {
+        // float:right;
+        // margin: 11px 11px 0 0;
+        // me
+
+        //end me
+        color: $white;
+        font-size: 14px;
+        letter-spacing: 0.2px;
+        font-family: "Roboto";
+        
+  }
+  &:hover {
+        box-shadow: 0 0 6px $google-blue;
+  }
+  &:active {
+        background: $button-active-blue;
+  }
+}
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:500);

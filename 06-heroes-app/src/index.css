@@ -1,0 +1,35 @@
+
+
+.container {
+    margin: 0;
+    padding: 4%;
+    width: 100vw;
+}
+.more {
+    text-decoration: none;
+}
+.card-columns {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card-columns .card {
+    margin-bottom: 3%;
+    width: 30vw;
+}
+.card-columns .card .row {
+    height: 100%;
+    width: 100%;
+}
+.card-columns .card .row .col-md-5 img {
+    height: 100%;
+    width: 100%;
+}
+.navbar ul  {
+    padding-right: 3%;
+    right: 5%;
+}
+/* button {
+    display: ;
+} */

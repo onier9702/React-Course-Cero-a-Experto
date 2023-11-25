@@ -1,0 +1,48 @@
+
+body {
+    padding: 60px;
+}
+
+input {
+    border-color: aqua;
+    /* border-radius: 10px solid rgb(250, 4, 4); */
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+h3, h1 {
+    color: rgb(0, 26, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    /* display: block; */
+    font-size: x-large;
+    font-style: oblique;
+    /* text-align: right; */
+}
+
+footer {
+    text-align: right;
+    text-shadow: aqua;
+}
+
+ul button {
+    background-color: aquamarine;
+    color: black;
+    display: inline;
+    float: left;
+    margin: 4px;
+}
+.cont {
+
+    border: 1.5px solid rgb(32, 196, 218);
+    border-radius: 8px;
+}
+
+.head-grid {
+    margin-left: 20px;
+}
+
+
+
